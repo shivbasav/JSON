@@ -1,0 +1,66 @@
+{
+  "test_case": "add_a_place_01",
+  "run": true,
+  "step": [
+    {
+      "number": 1,
+      "id": "Place_AddPlace_PlaceName",
+      "action": "textBox",
+      "value": "Aqua-Blu"
+    },
+    {
+      "number": 2,
+      "id": "Place_AddPlace_Relationship",
+      "action": "textBox",
+      "value": "Owner"
+    },
+    {
+      "number": 3,
+      "id": "Place_AddPlace_AdditionalInfo",
+      "action": "textBox",
+      "value": "chance.address()"
+    },
+    {
+      "number": 4,
+      "id": "Place_AddPlace_AdditionalInfo",
+      "action": "textBox",
+      "value": "chance.address()"
+    },
+    {
+      "number": 5,
+      "id": "Place_AddPlace_SearchAddress",
+      "action": "textBox",
+      "value": "181 Domain Rd, South Yarra"
+    },
+    {
+      "number": 6,
+      "id": "Place_AddPlace_SearchAddress",
+      "action": "click",
+      "value": "181 Domain Rd, South Yarra VIC, Australia"
+    },
+    {
+      "number": 7,
+      "id": "Place_AddPlace_Email",
+      "action": "textBox",
+      "value": "abc@kravein.com.au"
+    },
+    {
+      "number": 8,
+      "id": "Place_AddPlace_Website",
+      "action": "textBox",
+      "value": "chance.url()"
+    },
+    {
+      "number": 9,
+      "id": "Place_AddPlace_Facebook",
+      "action": "textBox",
+      "value": "chance.url()"
+    },
+    {
+      "number": 10,
+      "id": "Place_AddPlace_Facebook",
+      "action": "textBox",
+      "value": "chance.url()"
+    }
+  ]
+}
